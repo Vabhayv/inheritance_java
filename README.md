@@ -1,7 +1,7 @@
 # inheritance_java
 import java.util.Scanner;
 
-public class inhertitance {
+public class Inhertitance {
                     int age; 
                     String name;
                     Scanner sc =new Scanner(System.in);
@@ -21,7 +21,7 @@ public class inhertitance {
                     }
 }
                 
-                   class child extends inhertitance
+                   class Child extends Inhertitance
                     {
                          String branch;
                          int semester;
@@ -37,9 +37,8 @@ public class inhertitance {
                                         System.out.println("SEMESTER :"+semester); 
                          }
                          public static void main (String args[]){
-                                        child object = new child();
+                                        Child object = new Child();
                                         object.getBase();
-
                                         object.getchild();
                                         object.show_base();
                                         object.showchild();
